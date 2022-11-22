@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'google-clone';
+
+  inputHasFocus: boolean = false;
+
+  changeInputHasFocus(status: boolean){
+    this.inputHasFocus = status;
+  }
+
 }

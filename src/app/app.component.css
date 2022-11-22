@@ -146,7 +146,11 @@ svg {
     margin-bottom: 18px;
 }
 
-.input-container:hover {
+.input-container:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+.input-container--shadow{
     box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
 }
 
